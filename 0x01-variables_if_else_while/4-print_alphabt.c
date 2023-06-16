@@ -5,6 +5,7 @@
  * Return: Always 0 (success)
  *
  */
+
 int main(void)
 {
 	int lowerCase = 'a';
@@ -17,7 +18,7 @@ int main(void)
 		else
 		{
 			putchar(lowerCase);
-			lowerCase +=1;
+			lowerCase += 1;
 		}
 	}
 	putchar('\n');
