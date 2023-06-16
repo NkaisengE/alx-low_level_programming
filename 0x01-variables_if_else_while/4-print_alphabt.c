@@ -9,6 +9,7 @@
 int main(void)
 {
 	int lowerCase = 'a';
+
 	while (lowerCase <= 'z')
 	{
 		if (lowerCase == 'e' || lowerCase == 'q')
@@ -22,5 +23,6 @@ int main(void)
 		}
 	}
 	putchar('\n');
+
 	return (0);
 }
